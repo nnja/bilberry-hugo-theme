@@ -1,9 +1,9 @@
 <header>
     <div class="container">
         <div class="logo">
-            <a href="{{ .Site.BaseURL | relLangURL }}" class="logo">
-                {{ if and (isset .Site.Params "customimage") (ne .Site.Params.customImage "") }}
-                    <img src="{{ .Site.Params.customImage | relLangURL }}" alt="">
+            <a href="/page/about/" class="logo">
+                {{ if (ne .Site.Params.customImage "") }}
+                    <img src="{{ .Site.Params.customImage }}" alt="">
                 {{ else }}
                     <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatarEMail }}?d=mm&size=200" alt="">
                 {{ end }}
