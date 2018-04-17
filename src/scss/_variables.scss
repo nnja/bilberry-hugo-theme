@@ -8,22 +8,27 @@ $headline-font: 'Raleway', 'Helvetica Neue', sans-serif;
 $content-font: 'Lato', sans-serif;
 
 // main colors
-$page-background-color: #f1f1f1;
-$base-color: #1d1f38;
-$special-color: #2D3642;
-$highlight-color: #5c8b59;
+$page-background-text-color: #f1f1f1;
+$page-background-color: #F0FBF5; // #DFF8EB;
+$base-color: #59C3FA; //#87BFFF;
+$special-color: #1B1B1E; //#445362;  // #63C7B2;
+$highlight-color:  #F865B0;
 $text-color: #222;
+
+// alternate color options:
+// hot magenta pink #FF00FF and milder pink #FF2EFF; and lighter #F865B0; 
+// good header blue #3193E4
 
 // easy styling
 $nav-background-color: $special-color;
-$nav-text-color: $page-background-color;
+$nav-text-color: $page-background-text-color;
 $algolia-search-box-color: #444;
 $algolia-search-box-icon-color: #888;
 $algolia-search-box-background-color: #fafafa;
 $algolia-border-color: #e4e4e4;
 
-$header-text-color: $page-background-color;
-$logo-color: darken( $page-background-color, 1 );
+$header-text-color: $page-background-text-color;
+$logo-color: darken( $page-background-text-color, 1 );
 $bubble-color: #fff;
 $bubble-background-color: #ccc;
 $bubble-hover-color: $highlight-color;
