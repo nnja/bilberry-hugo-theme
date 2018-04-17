@@ -1,5 +1,5 @@
-title = "My cool new Blog"
-baseURL = "https://example.com"
+title = "Nina Zakharenko"
+baseURL = "https://nnja.io"
 theme = "bilberry-hugo-theme"
 
 enableRobotsTXT = true
@@ -25,12 +25,12 @@ disqusShortname = "bilberry-hugo-theme"
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  author = "Nina Zakharenko"
+  description = "Blog of Nina Zakharenko - Python Deverloper, Azure Cloud Developer Advocate, works for Microsoft"
+  keywords = "blog, technology, python, pythonista, programming, developer, software developer, software engineer, azure, cloud, cloud computing, testing, clean code"
 
   # How many articles should be displayed at once?
-  paginate = 7
+  paginate = 10
 
   # Enable / Disable MathJax
   enable_mathjax    = false
@@ -43,20 +43,20 @@ disqusShortname = "bilberry-hugo-theme"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    subtitle = "Developer, Pythonista, Speaker. Cloud Developer Advocate @ Microsoft"
 
     # if you want to use gravatar for the header image
     gravatarEMail = ""
 
     # set an path to the image file you want to use | overwrites gravatar
-    customImage = ""
+    customImage = "https://pbs.twimg.com/profile_images/944270517208358912/nU9hjc4n_400x400.jpg"
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
+    permanentTopNav = true
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
+    copyrightBy = "by Nina Zakharenko"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
     copyrightUrl = "https://github.com/Lednerb"
     creditsText = "Bilberry Hugo Theme"
@@ -64,14 +64,14 @@ disqusShortname = "bilberry-hugo-theme"
 
   # social media profile urls for the footer links
   facebook   = ""
-  twitter    = "https://twitter.com/TheRealLednerb"
+  twitter    = "https://twitter.com/nnja"
   googleplus = ""
   pinterest  = ""
-  instagram  = ""
+  instagram  = "https://instagram.com/nnjas"
   tumblr     = ""
   youtube    = ""
   vimeo      = ""
-  github     = "https://github.com/Lednerb"
+  github     = "https://github.com/nnja"
 
 # don't change anything here
 [taxonomies]
