@@ -12,10 +12,21 @@
             </a>
         </div>
         <div class="titles">
-            <h3 class="title"><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title | default "My cool new blog" }}</a></h3>
+            <h3 class="title"><a href="/">{{ .Site.Title }}</a>
+            </h3>
             {{ with .Site.Params.Subtitle }}
                 <span class="subtitle">{{ . }}</span>
             {{ end }}
+            <h3 class="title">
+                <div class="social-media">
+                    {{ with .Site.Params.twitter }}
+                        <a href="{{ . }}" target="_blank"><i class="fa fa-twitter"></i></a>
+                    {{ end }}
+                    {{ with .Site.Params.github }}
+                        <a href="{{ . }}" target="_blank"><i class="fa fa-github"></i></a>
+                    {{ end }}
+                </div>
+            </h3>
         </div>
 
     {{ if and (gt .Site.Languages 1) (.Site.Params.showHeaderLanguageChooser | default true) }}
