@@ -8,7 +8,11 @@
 
     {{ $paginator := .Paginate (where .Data.Pages "Type" "ne" "page") (index .Site.Params "paginate" | default 7) }}
     {{ range  where .Paginator.Pages "Type" "ne" "page" }}
-        {{ partial "article-wrapper" . }}
+        {{ if .Params.excludeFromIndex }}
+            {{/* Do nothing */}}
+        {{ else }}
+            {{ partial "article-wrapper" . }}
+        {{ end }}
     {{ end }}
 
     {{ partial "paginator" . }}
