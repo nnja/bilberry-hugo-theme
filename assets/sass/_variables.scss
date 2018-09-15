@@ -1,4 +1,4 @@
-$fonts-folder: '/bilberry-hugo-theme/dist/fonts/';
+$fonts-folder: '/dist/fonts/';
 
 // Set the with of the main content area
 // Notice that the actual content's width is $site-width - 100px
@@ -19,7 +19,7 @@ $highlight-color:  #F865B0;
 $text-color: #222;
 
 // alternate color options:
-// hot magenta pink #FF00FF and milder pink #FF2EFF; and lighter #F865B0; 
+// hot magenta pink #FF00FF and milder pink #FF2EFF; and lighter #F865B0;
 // good header blue #3193E4
 
 // easy styling
@@ -42,7 +42,7 @@ $meta-border-color: #eee;
 $continue-reading-hover-color: $meta-text-color;
 
 $footer-border-color: #eee;
-$footer-background-color: #ffffff80;
+$footer-background-color: rgba(#ffffff, 80);
 $footer-headline-color: #444;
 
 
