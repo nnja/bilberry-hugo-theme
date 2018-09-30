@@ -25,6 +25,15 @@
                     {{ with .Site.Params.github }}
                         <a href="{{ . }}" target="_blank"><i class="fa fa-github"></i></a>
                     {{ end }}
+                    {{ with .Site.Params.youtube }}
+                        <a href="{{ . }}" target="_blank"><i class="fa fa-youtube"></i></a>
+                    {{ end }}
+                    {{ with .Site.Params.slideshare }}
+                        <a href="{{ . }}" target="_blank"><i class="fa fa-slideshare"></i></a>
+                    {{ end }}
+                    {{ with .Site.Params.other }}
+                        <a href="{{ . }}" target="_blank"><i class="fa fa-video-camera"></i></a>
+                    {{ end }}
                 </div>
             </h3>
         </div>
